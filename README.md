@@ -1,5 +1,5 @@
 # Gamifying Habit Tracker
-
+#hint - Click on Circle of a task to mark it complpete and see its animation
 ## 🚀 Overview
 The **Gamifying Habit Tracker** is a web application designed to make habit tracking more engaging and fun. By incorporating gamification elements like streaks, rewards, and progress tracking, it motivates users to build positive habits consistently.
 
