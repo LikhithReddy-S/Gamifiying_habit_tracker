@@ -41,6 +41,11 @@ Here are some snapshots of the application:
 untill now it is on level 1 but now it is on level 2 after doing daily tasks
 ![image](https://github.com/user-attachments/assets/c7266ed2-8af1-41ac-8320-fd2810d2fccb)
 
+### 📌 Todo App(inbuilt)
+Todo app inbuilt which stores in localstorage
+![image](https://github.com/user-attachments/assets/88a3968f-223e-4d07-b880-131f9c554c68)
+
+
 
 > 📌 **Note:** Replace `path/to/screenshot.png` with the actual relative path of your screenshots stored in the repository.
 
