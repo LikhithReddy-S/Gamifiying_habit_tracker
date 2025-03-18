@@ -51,6 +51,8 @@ untill now it is on level 1 but now it is on level 2 after doing daily tasks
 4. **Analyze your progress** through insightful dashboards.
 
 ## 🤝 Contributing
+Patners:
+        [M Karthik Reddy](https://github.com/KarthikMallareddy)
 We welcome contributions! To contribute:
 1. Fork the repository.
 2. Create a new branch (`feature-branch`).
