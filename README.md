@@ -63,5 +63,5 @@ This project is licensed under the MIT License.
 ## 📞 Contact
 - **Author:** Likhith Reddy  
 - **GitHub:** [LikhithReddy-S](https://github.com/LikhithReddy-S)  
-- **LinkedIn:** [Profile](https://linkedin/username.com)
+- **LinkedIn:** [Profile](https://www.linkedin.com/in/likhithreddys/)
 
