@@ -1,0 +1,211 @@
+/* globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: linear-gradient(180deg, #0a1744 0%, #091238 100%);
+  --card-bg: rgba(13, 27, 77, 0.7);
+  --card-border: rgba(59, 130, 246, 0.5);
+  --accent: #3e95ff;
+  --text-primary: #e2f0ff;
+  --text-secondary: #a5c4e7;
+  --level-badge: #3b82f6;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: Inter, system-ui, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6bb6ff;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.app-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.level-card {
+  width: 100%;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.level-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.level-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.level-badge {
+  background-color: var(--level-badge);
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.level-progress {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.progress-bar {
+  height: 8px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--accent);
+  border-radius: 4px;
+  width: 75%; /* Adjust based on actual progress */
+}
+
+.points-display {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffd700;
+}
+
+.badge-starter {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.quest-input {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.input-field {
+  flex: 1;
+  background-color: rgba(13, 27, 77, 0.8);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+  color: var(--text-primary);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+.add-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #2563eb;
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: rgba(13, 27, 77, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.quest-item {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quest-checkbox {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.quest-text {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.delete-button:hover {
+  opacity: 1;
+  color: #f43f5e;
+}
