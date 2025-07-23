@@ -24,7 +24,7 @@ cd Gamifiying_habit_tracker
 
 ### 2️⃣ Install Dependencies & Run
 ```bash
-install next --legacy-peer-deps
+npm install next --legacy-peer-deps
 npm run dev
 ```
 
