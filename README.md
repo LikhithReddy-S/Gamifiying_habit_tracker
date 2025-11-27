@@ -47,8 +47,6 @@ Todo app inbuilt which stores in localstorage
 
 
 
-> 📌 **Note:** Replace `path/to/screenshot.png` with the actual relative path of your screenshots stored in the repository.
-
 ## 🚀 Usage
 1. **Sign up/Login** to start tracking habits.
 2. **Set up your daily habits and goals.**
